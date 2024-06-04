@@ -12,6 +12,6 @@ Map.o:
 	g++ -c -fPIC Map.cpp -Wall
 View.o:
 	g++ -c -fPIC View.cpp	
-
+.PHONY: clean 
 clean:
 	rm -f *.o *.so game
